@@ -18,12 +18,6 @@
         (fill (type background))
       )
     )
-    (symbol "CH334P_1_0"
-      (pin bidirectional line (at 13.97 -1.27 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "" (effects (font (size 1.27 1.27))))
-      )
-    )
     (symbol "CH334P_1_1"
       (pin bidirectional line (at -13.97 3.81 0) (length 2.54)
         (name "XO" (effects (font (size 1.27 1.27))))
