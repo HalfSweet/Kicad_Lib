@@ -123,12 +123,7 @@
   (pad "3" smd rect (at -4.2 2.25) (size 1.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a9fc36d2-1411-4f2e-8b98-467f861b4712))
   (pad "4" smd rect (at 4.2 2.25) (size 1.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0ae4a43c-b3d1-44d5-97a3-b81c5ea01137))
   (pad "5" smd rect (at 4.2 0) (size 1.4 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 217e8b2e-f019-42ba-83ad-27d5e6d46ed9))
-  (model "${KIPRJMOD}/kicad_lceda.3dshapes/KEY-SMD_4P-L6.2-W6.5-H3.1-LS8.0-P4.5.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KIPRJMOD}/kicad_lceda.3dshapes/KEY-SMD_4P-L6.2-W6.5-H3.1-LS8.0-P4.5.wrl"
+  (model "D:/Kicad Lib/3D/skhmqle010.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

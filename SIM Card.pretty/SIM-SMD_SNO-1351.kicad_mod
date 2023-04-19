@@ -199,4 +199,9 @@
   (pad "SH" smd roundrect (at -6.5 6.74) (size 0.7 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 60184af6-e52b-46ab-973a-c1edadf1509d))
   (pad "SH" smd roundrect (at 6.5 -5.26) (size 0.7 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 55427d02-cec6-4d53-8554-380fa4842ae4))
   (pad "SH" smd roundrect (at 6.5 6.74) (size 0.7 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f01d8f12-760f-48d1-b813-8ab385c99377))
+  (model "D:/Kicad Lib/3D/smn-303.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
