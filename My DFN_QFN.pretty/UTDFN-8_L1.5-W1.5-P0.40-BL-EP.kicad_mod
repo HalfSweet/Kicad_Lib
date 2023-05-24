@@ -1,11 +1,11 @@
 (footprint "UTDFN-8_L1.5-W1.5-P0.40-BL-EP" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -3.207) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp eb9f2930-c8e2-4f37-b3af-a320a4e24115)
   )
-  (fp_text value "" (at 0 -0.667) (layer "F.Fab") hide
+  (fp_text value "Val**" (at 0 -0.667) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp a1766f5b-003c-4790-824b-5b9dfd164287)
   )
