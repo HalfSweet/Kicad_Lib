@@ -1,0 +1,101 @@
+(footprint "DAPLink-port"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.74 0.03 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "10534e13-7919-4d27-8f39-937e44d94502")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DAPLink_sig"
+		(at 5.08 -2.54 0)
+		(layer "F.Fab")
+		(uuid "10b740fb-577d-4db6-b127-19923203d5e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31ef9c12-2ad6-449b-9afb-1cecf02d2798")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f681c02-f98b-4738-b9bd-a39794f45797")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95b7e42a-a6eb-4cd3-98f6-e4b685f207fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_bom allow_missing_courtyard)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.524 2.54)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a826d4f1-aa41-4d34-8070-125b5f8ee214")
+	)
+	(pad "2" smd roundrect
+		(at 2.54 0)
+		(size 1.524 2.54)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "85784899-6875-4559-9771-267a73ca4ab3")
+	)
+	(pad "3" smd roundrect
+		(at 5.08 0)
+		(size 1.524 2.54)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "882ea305-cc45-466a-9378-45336f1576b5")
+	)
+	(pad "4" smd roundrect
+		(at 7.62 0)
+		(size 1.524 2.54)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "10243549-b663-4ffe-9284-f0318759fa4d")
+	)
+	(pad "5" smd roundrect
+		(at 10.16 0)
+		(size 1.524 2.54)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "112db88a-e813-4d96-80ac-f677ec798823")
+	)
+)
