@@ -1,0 +1,192 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "三脚电感CD0805"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 3.6322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "三脚电感CD0805"
+			(at 0 8.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductance:CD0805-三脚电感"
+			(at 0 -1.4478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -6.5278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -11.6078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "uuid" "std:49a2f8ce7b184d90bb39c873fc24df58"
+			(at 0 -11.6078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "三脚电感CD0805_1_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.1214 -0.0254) (xy -6.096 0.1778) (xy -6.0706 0.381) (xy -5.9944 0.5588) (xy -5.8674 0.7112)
+					(xy -5.7404 0.8382) (xy -5.5626 0.9652) (xy -5.3848 1.016) (xy -5.1816 1.0668) (xy -5.0038 1.0668)
+					(xy -4.8006 1.016) (xy -4.6228 0.9398) (xy -4.445 0.8382) (xy -4.318 0.7112) (xy -4.191 0.5334)
+					(xy -4.1148 0.3556) (xy -4.0894 0.1778) (xy -4.0894 -0.0254)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 0) (xy -4.064 0.1778) (xy -4.0386 0.381) (xy -3.9624 0.5588) (xy -3.8354 0.7112) (xy -3.7084 0.8382)
+					(xy -3.5306 0.9652) (xy -3.3528 1.0414) (xy -3.1496 1.0668) (xy -2.9718 1.0668) (xy -2.7686 1.016)
+					(xy -2.5908 0.9398) (xy -2.413 0.8382) (xy -2.286 0.7112) (xy -2.159 0.5334) (xy -2.0828 0.3556)
+					(xy -2.0574 0.1778) (xy -2.0574 -0.0254)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0) (xy -2.032 0.2032) (xy -1.9812 0.381) (xy -1.905 0.5588) (xy -1.8034 0.7366) (xy -1.651 0.8636)
+					(xy -1.4986 0.9652) (xy -1.2954 1.0414) (xy -1.1176 1.0922) (xy -0.9144 1.0922) (xy -0.7112 1.0414)
+					(xy -0.5334 0.9652) (xy -0.3556 0.8636) (xy -0.2286 0.7112) (xy -0.127 0.5588) (xy -0.0508 0.381)
+					(xy 0 0.1778) (xy 0 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.0254 -0.0254) (xy 0 0.1778) (xy 0.0254 0.381) (xy 0.1016 0.5588) (xy 0.2286 0.7112) (xy 0.3556 0.8382)
+					(xy 0.5334 0.9652) (xy 0.7112 1.016) (xy 0.9144 1.0668) (xy 1.0922 1.0668) (xy 1.2954 1.016) (xy 1.4732 0.9398)
+					(xy 1.651 0.8382) (xy 1.778 0.7112) (xy 1.905 0.5334) (xy 1.9812 0.3556) (xy 2.0066 0.1778) (xy 2.0066 -0.0254)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -1.27 90)
+				(length 0.762)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 0 0)
+				(length 1.524)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 0 180)
+				(length 1.778)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+)
