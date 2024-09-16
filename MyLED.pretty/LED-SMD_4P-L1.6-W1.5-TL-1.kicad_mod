@@ -257,28 +257,32 @@
 		(layer "F.CrtYd")
 		(uuid "a989fc3c-79c8-4c50-9a2e-421e6c8fe770")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.625 -0.425 180)
 		(size 0.65 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "dd75c076-2bf6-4b29-b8ec-1087f375e195")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.625 -0.425 180)
 		(size 0.65 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "f383dfec-491c-4ae7-a827-ada7ddc17868")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -0.625 0.425 180)
 		(size 0.65 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "6e5d774e-ea6f-40f4-8a46-620ea244baff")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.625 0.425 180)
 		(size 0.65 0.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "c4a9b9b3-c21e-4aa9-aab5-af0784bf744f")
 	)
 	(model "${KIPRJMOD}/kicad_lceda.3dshapes/LED-SMD_4P-L1.6-W1.5-TL-1.step"
