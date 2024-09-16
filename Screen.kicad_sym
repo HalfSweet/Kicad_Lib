@@ -309,4 +309,381 @@
 			)
 		)
 	)
+	(symbol "1.14_LCD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.14_LCD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Screen:1.14IPS-LCD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1.14_LCD_1_1"
+			(rectangle
+				(start -5.08 17.78)
+				(end 5.08 -17.78)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 15.24 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -7.62 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -10.16 0)
+				(length 2.54)
+				(name "LEDK"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -12.7 0)
+				(length 2.54)
+				(name "LEDA"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -15.24 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 12.7 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 10.16 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 7.62 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 5.08 0)
+				(length 2.54)
+				(name "RS"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "RES"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.1684 1.1684)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "IPS-LCD-1.14"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -765.81 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IPS-LCD-1.14"
+			(at -765.81 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_lceda:1.14IPS-LCD"
+			(at -765.81 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -765.81 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SuppliersPartNumber" ""
+			(at -765.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "uuid" "std:db8ac2ec2e734527a9be044ef91de7c5"
+			(at -765.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "IPS-LCD-1.14_1_1"
+			(rectangle
+				(start -6.35 15.24)
+				(end 6.35 -20.32)
+				(stroke
+					(width 0.0762)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
 )
