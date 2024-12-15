@@ -49,24 +49,6 @@
 				(hide yes)
 			)
 		)
-		(symbol "XL-1615SURUGC_0_0"
-			(text "G"
-				(at -2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.2954 1.2954)
-					)
-				)
-			)
-			(text "R"
-				(at -2.54 1.27 0)
-				(effects
-					(font
-						(size 1.2954 1.2954)
-					)
-				)
-			)
-		)
 		(symbol "XL-1615SURUGC_0_1"
 			(polyline
 				(pts
@@ -200,6 +182,24 @@
 				)
 			)
 		)
+		(symbol "XL-1615SURUGC_1_0"
+			(text "G\n"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.2954 1.2954)
+					)
+				)
+			)
+			(text "R"
+				(at -2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.2954 1.2954)
+					)
+				)
+			)
+		)
 		(symbol "XL-1615SURUGC_1_1"
 			(pin input line
 				(at 7.62 -2.54 180)
@@ -238,9 +238,9 @@
 				)
 			)
 			(pin input line
-				(at -7.62 2.54 0)
+				(at 7.62 2.54 180)
 				(length 2.54)
-				(name "A1"
+				(name "K1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -256,9 +256,9 @@
 				)
 			)
 			(pin input line
-				(at 7.62 2.54 180)
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "K1"
+				(name "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
